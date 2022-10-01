@@ -1,0 +1,209 @@
+/*!
+ * Template Name/Project Name: XYZ
+ * Developer Name: Mr prime Hosen Anando
+ * Conatct: primehosena@gmail.com
+ * Visit: https://abc.info
+ */
+ /* common code start */
+ :root{
+    --white-color: #fff;
+    --brand-color: #8e8e93;
+    --danger-color: #e84545;
+    --footer-color: #3a3e64;
+    --f-text-color: #757893;
+    --sm-footer-color: #313454;
+    --sm-footer-text: #6e6f75;
+    --h-text: #8f9192;
+    
+
+
+ }
+ .cont{
+    width: 70%;
+    margin:0px auto;
+ }
+ 
+ /* header start  */
+ header{
+    background: url(../img/banner.png);
+ }
+ /* nav start  */
+.nav-border{
+    border-bottom:1px solid white;
+    
+ }
+ .navbar-brand{
+    margin-left: 170px;
+    color: var(--white-color);
+    
+ }
+ .navbar-brand span{
+    font-weight: bold;
+    color:var(--brand-color) ;
+ }
+ .nav-item .nav-link{
+    color: var(--white-color);
+ }
+ 
+ /* nav end */
+ /* banner start  */
+ .banner-content{
+    padding: 100px;
+ }
+ .banner-content h2{
+    font-size: 50px;
+ }
+ .banner-content p{
+    font-size: 18px;
+ }
+ .banner-content button{
+    color:var(--white-color) ;
+    background-color: var(--danger-color);
+    border: none;
+    padding: 3px 20px;
+
+ }
+
+ /* banner end */
+ /* header end  */
+ /* icon section start */
+.icon-section{
+   padding: 100px 0;
+}
+.icone-item{
+   padding: 0 20px;
+}
+.icone-item i{
+   color: var(--danger-color);
+   padding: 10px 0;
+}
+.icone-item h4{
+   color: var(--h-text);
+   font-size: 16px;
+}
+ .icone-item p{
+   text-align: justify;
+   padding:10px 0;
+   color: var(--sm-footer-text);
+   font-size: 14px;
+ }
+ /* icon section end */
+ /* img-gellary start */
+ .img-item img{
+   border: 1px solid var(--white-color);
+ }
+ .img-item .img-content{
+   position: relative;
+   text-align: center;
+   overflow: hidden;
+ }
+ .img-item .img-content-overly{
+   position:absolute;
+   background-color: rgba(207, 18, 18, 0.6);
+   top: -100%;
+   height: 100%;
+   width: 100%;
+   cursor: pointer;
+   transition: .7s all;
+   text-align: center;
+   color: var(--white-color);
+   border: 1px solid green;
+ }
+ .img-item .img-content-overly h2{
+   margin: 100px 0 0 0;
+   font-size: 18px;
+ }
+ .img-item .img-content-overly p{
+   font-size: 14px;
+   font-weight: 400;
+ }
+ 
+ .img-content:hover .img-content-overly{
+   top: 0px;
+ }
+
+ 
+ /* img-gellary end */
+ /* card-sectiion start  */
+ .card{
+  border-radius: 0px;
+ }
+ .card img{
+  border-radius: 0px;
+ }
+ .card-body{
+  margin:0px;
+  padding: 5px;
+ }
+ .card-name{
+   font-size: 18px;
+   margin-top: 10px;
+ }
+
+ .card-title{
+   font-size: 16px;
+ }
+ .card-text{
+   font-size: 14px;
+   text-align: justify;
+   margin-top: 10px;
+ }
+ .card-icon i{
+  color: #6e6f75;
+  border: 1px solid var(--sm-footer-text);
+  padding: 3px;
+  margin: 3px;
+ }
+ /* card-sectiion end */
+
+ /* carousel start  */
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--white-color);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-dark .carousel-caption {
+  color: #000;
+  /* padding: 30px 0; */
+  text-align: start;
+  font-weight: 200;
+  /* padding-bottom: 100px; */
+}
+/* .carousel-dark .carousel-caption h5{
+  padding-bottom: 100px;
+} */
+.carousel-dark .carousel-caption small {
+  padding-bottom: 100px;
+  display: inline-block;
+}
+
+
+ /* carousel end */
+
+ /* footer start  */
+ footer{
+   background-color: var(--footer-color);
+   padding: 40px 0px;
+ }
+ .f-article h3{
+   font-size: 16px;
+ }
+ .f-article p{
+   font-size: 14px;
+   color: var(--f-text-color);
+ }
+ .f-article p i{
+   border: 1px solid var(--white-color);
+   padding: 7px;
+   color: var(--white-color);
+   margin: 5px;
+ }
+ .sm-footer{
+   background-color:var(--sm-footer-color) ;
+ }
+ .fs-article p{
+   color: var(--f-text-color);
+   font-size: 14px;
+ }
+ /* footer end */
